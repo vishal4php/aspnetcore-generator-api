@@ -11,7 +11,7 @@ namespace integration
 {
     public class EmailTests
     {
-        public const string GeneratorApiRoot = "http://generator";
+        public const string GeneratorApiRoot = "http://localhost:8080";
         public const string MailHogApiV2Root = "http://localhost:8025/api/v2";
 
         [Fact]
