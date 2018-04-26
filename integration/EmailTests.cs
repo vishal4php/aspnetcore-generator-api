@@ -46,7 +46,7 @@ namespace integration
                 messages.Should().HaveElement("items")
                     .Which.Should().BeOfType<JArray>()
                     .Which.First.Should().HaveElement("Raw")
-                    .Which.Should().HaveElement("From");
+                    .Which.Should().HaveElement("From")
                     .Which.Should().Be("enerator@generate.com");
             }
         }
